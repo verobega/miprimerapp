@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import Download from './components/Download';
+import MozillaIcon from './components/MozillaIcon';
+import Description from './components/Description';
+import Dino from './components/Dino';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div><MozillaIcon/></div>
+      <div><Nav/></div>
+      <div><Download/></div>
+      <div><Description/></div>
+      <div><Dino/></div>
     </div>
+
   );
 }
 

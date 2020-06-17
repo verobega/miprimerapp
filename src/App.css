@@ -1,4 +1,13 @@
-.App {
+.App-Nav{
+  align-items: center;
+}
+
+
+
+
+
+
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+*/
